@@ -1,0 +1,126 @@
+.main {
+  margin: 3rem auto;
+  height: 85vh;
+  width: 60vw;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0.5px 0.5px 5px 1px rgba(15, 15, 15, 0.274);
+}
+
+.student {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+.student::-webkit-scrollbar {
+  width: 5px;
+}
+.student::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.student::-webkit-scrollbar-thumb {
+  background-color: rgba(79, 79, 82, 0.61);
+  border-radius: 20px;
+}
+
+.search_bar input {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid lightgray;
+  width: 100%;
+  height: 3rem;
+  font-weight: 100;
+  font-size: 20px;
+  transition: 0.1s;
+  padding: 1rem;
+}
+
+.std {
+  display: flex;
+  border-bottom: 1px solid rgb(207, 199, 199);
+}
+
+.std .std_img {
+  margin: 2rem;
+}
+
+.std img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 5rem;
+  border: 1px solid rgb(207, 199, 199);
+}
+
+.std_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.std_details p {
+  margin: 5px 35px;
+  font-weight: 200;
+}
+
+.std_grades_list {
+  margin-top: 1rem;
+}
+.std_grades {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.std_button {
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+.button_container {
+  margin-left: auto;
+}
+
+.button_grade_list {
+  border: none;
+  background: transparent;
+  font-size: 40px;
+  color: lightgrey;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.button_grade_list:hover {
+  color: black;
+}
+
+.std_list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+}
+
+.std_tag_list {
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: #bbb;
+  border-radius: 0.5rem;
+}
+
+.std_tag_add {
+  outline: none;
+  font-size: 0.95rem;
+  padding: 0.5rem;
+  margin-left: 2rem;
+  border: 0;
+  border-bottom: 1px solid grey;
+}

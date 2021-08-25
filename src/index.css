@@ -1,0 +1,13 @@
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  width: 100%;
+  background: rgba(219, 219, 214, 0.89);
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
